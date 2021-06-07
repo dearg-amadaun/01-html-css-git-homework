@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+/*used to hide the non functional img tag with the alt description for the .hero image*/
+div {
+    display: none;
+}
+
 body {
     background-color: #d9dcd6;
 }
