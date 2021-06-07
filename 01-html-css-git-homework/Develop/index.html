@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon</title>
 </head>
 
 <body>
     <!--Changed div to header-->
     <header class="header">
         <h1>Hori<span class="seoColor">seo</span>n</h1>
-        <!--Unsure here how to change without breaking layout (span maybe?)-->
-        <div>
+        <!--Unsure here how to change without breaking layout
+            (Had to change the tag in the style sheet as well)-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,13 +25,15 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </span>
+        </nav>
     </header>
+    
     <!--Replace div names here? Section and main seem to be good choices. They convey what each is and don't break anything.-->
     <section class="hero"></section>
     <main class="content">
-        <!--Add <alt> descriptions and image titles <title> for seo/accessibility-->
-        <section class="search-engine-optimization">
+       
+        <!--Added <alt> descriptions and image titles <title> for seo/accessibility-->
+        <section id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A workspace with an open journal, and scattered drawing implements." title="HORISEON helps YOU increase your visibility!" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -75,7 +78,7 @@
             </p>
         </section>
     </main>
-    <!--Add footer tags-->
+    <!--Added footer tags-->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
