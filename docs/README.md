@@ -5,7 +5,7 @@ An early practice "job ticket" style project. The goals of which were to review 
 they followed proper coding semantics, as well as accessbility standards. 
 
 Deployed:
-https://dearg-amadaun.github.io/01-html-css-git-homework/
+https://dearg-amadaun.github.io/html-css-git/
 
 ![alt text](Screen1.jpg "Style Sheet")
 
